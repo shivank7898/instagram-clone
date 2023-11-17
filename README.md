@@ -1,5 +1,10 @@
 # Getting Started with Create React App
 
+Due to Lack of time it's not completed properly like the comments section and like button can be improved
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
