@@ -1,0 +1,74 @@
+.commonRow{
+    display: flex;
+}
+.name{
+    text-align: center;
+}
+.postProfile{
+    height: 40px;
+    width: 40px;
+    border-radius: 25px;
+    border: 1px solid var(--liteColor);
+    background-image: url('../../Assets/me.png');
+    background-position: center;
+    background-size: cover;
+}
+.postName{
+    font-weight:600;
+}
+.postDay{
+    color: var(--liteColor);
+}
+.PostDesc{
+    font-size: 12px;
+}
+.postRow{
+    display: flex;
+    justify-content: space-between;
+}
+.postContainer{
+    padding: 50px 10%;
+}
+.activity img{
+    padding-right: 5px;
+}
+.liked{
+    position: relative;
+}
+.likedProfile{
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    border: 1px solid var(--liteColor);
+    background-image: url('../../Assets/me.png');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+}
+.likedProfile1{
+    height: 15px;
+    width: 15px;
+    border-radius: 10px;
+    border: 1px solid var(--liteColor);
+    background-image: url('../../Assets/person2.jpg');
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left: 8px;
+    z-index: 1;
+}
+.likeCount{
+    padding-left:30px ;
+    font-size: 14px;
+    font-weight: 600;
+}
+.addComment{
+    color: var(--liteColor);
+}
+.commentBorder{
+    padding-top: 9px;
+    border-bottom: 1px solid var(--liteColor);
+}
+.emojiSize{
+    font-size: 20px;
+}
